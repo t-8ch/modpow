@@ -8,6 +8,7 @@ static bool zero(const mpz_t input) {
 
 static void shift_right(mpz_t input) {
 	(void) mpz_tdiv_q_2exp(input, input, 1);
+	return;
 }
 
 static bool last_bit_set(const mpz_t input) {
