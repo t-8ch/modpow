@@ -18,6 +18,7 @@ Benchmark a custom modPow function against the one from Java
 base: 1234567890987654321
 exponent: 1234567890987654321
 modulus: 1234567890
+rounds: 1000000
 result: 934566831
 ```
 
