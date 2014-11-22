@@ -1,4 +1,4 @@
-package net.weissschuh.dhbw.match;
+package net.weissschuh.dhbw.math;
 
 import java.math.BigInteger;
 import org.openjdk.jmh.annotations.Benchmark;
