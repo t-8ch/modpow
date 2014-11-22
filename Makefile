@@ -1,4 +1,9 @@
 LDLIBS=-lgmp
-CFLAGS=-std=c89 -Werror -Wall -Wpedantic
+CFLAGS=-std=c89 -Werror -Wall -Wpedantic -O3
 
-all: modpow
+all: main test
+
+main: modpow.c
+test: modpow.c
+
+modpow.c: modpow.h
